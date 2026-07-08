@@ -1,0 +1,23 @@
+1. Suspicious File Analysis
+
+A digital forensics analyst checks a suspicious file to see if it is harmful or contains a virus. They study the file carefully without changing it so that all the evidence stays safe. This helps them understand what caused the security problem.
+
+2. Checksum the File (SHA-256)
+
+Before starting the investigation, the analyst creates a SHA-256 hash of the file. This hash works like the file's fingerprint. If the fingerprint changes later, it means the file has been changed.
+
+3. Static Analysis
+
+In static analysis, the file is studied without opening or running it. The analyst looks for important information like hidden text or checks if antivirus programs have marked the file as dangerous. This helps them learn about the file safely.
+
+4. Dynamic Analysis
+
+In dynamic analysis, the file is run inside a virtual machine, which is a safe and isolated environment. The analyst watches what the file does, such as creating new files or connecting to websites. This helps reveal any harmful actions.
+
+5. Identifying Malicious Indicators
+
+The analyst looks for signs that show the file may be dangerous. These signs can include strange websites, unknown network connections, or unexpected changes to the system. Such activities may mean that the file is trying to steal information or damage the computer.
+
+Conclusion
+
+Digital forensics helps experts investigate suspicious files and understand cyberattacks. By checking file fingerprints, studying files safely, and observing their behavior, analysts can find out whether a file is safe or harmful and collect useful evidence.
